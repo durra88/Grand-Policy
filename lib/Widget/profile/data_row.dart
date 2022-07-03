@@ -1,0 +1,37 @@
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+
+class DataRows extends StatelessWidget {
+  final String text1, text2;
+  const DataRows({Key? key, required this.text1, required this.text2})
+      : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(0.0, 8.0, 0.0, 8.0),
+      child: Row(
+        crossAxisAlignment: CrossAxisAlignment.end,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+        children: [
+          Text(
+            text1,
+            style: GoogleFonts.raleway(
+              color: Colors.grey,
+              fontSize: 16,
+              fontWeight: FontWeight.w400,
+            ),
+          ),
+          Text(
+            text2,
+            style: const TextStyle(
+              color: Color.fromARGB(211, 0, 0, 0),
+              fontSize: 16,
+              fontWeight: FontWeight.w500,
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}

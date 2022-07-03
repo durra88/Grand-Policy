@@ -1,0 +1,19 @@
+//!--------------------------------------------------------------Excuse Details
+const excuseDetails = 'Excuse Details';
+const excuseFromString = 'Excuse From ';
+const hrManagerEmailString = 'HR. Manager Email';
+const excuseTypeString = 'Excuse Type';
+const fromString = 'From';
+const toString = 'To';
+const noOfHourString = 'Hours';
+const hourString = 'No. of Hours';
+const leaveReasonString = 'Leave Reason';
+const informToString = 'Inform To';
+const nameString = 'Name';
+const openString = 'Open';
+const deleteString = 'Delete';
+const documentString = 'Document';
+const statusString = 'Status';
+const backToWorkTimeString = 'Back To Work Time';
+const backToWorkString = 'Back To Work';
+const cancelRequestString = 'Cancel Request';

@@ -1,0 +1,21 @@
+//!--------------------------------------------------------------Loan Details
+const loanDetailsString = '';
+const noteString = 'Notes';
+const loanAmountString = 'Loan Amount';
+const noOfInstallmentsString = 'NO. of Installment ';
+const notDeductedFromSalaryString = 'Not Deducted from Salary';
+const typeString = 'Type';
+const installmentStartString = 'Installment Start';
+const yearString = 'Year';
+const monthString = 'Month';
+const amountString = 'Amount';
+const loanHistoryString = 'Loans History';
+const statusString = 'Status';
+const settledString = 'Settled';
+const installmentAmountString = 'Installment Amount';
+const deductedFromSalaryString = ' Deducted from Salary';
+const createdByString = 'Created by';
+const createdOnString = 'Created on';
+const totalLoanString = 'Total Loan';
+const totalPaidString = 'Total Paid';
+const totalPendingString = 'Total Pending';
